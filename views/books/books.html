@@ -1,0 +1,11 @@
+<md-content>
+
+    <md-card ng-repeat="book in books">
+        <md-card-content>
+            <h2 class="md-title">{{book.instance.title}}</h2>
+        </md-card-content>
+        <div class="md-actions" layout="row" layout-align="end center">
+            <md-button ng-click="deleteBook(book)">Delete book</md-button>
+        </div>
+    </md-card>
+</md-content>

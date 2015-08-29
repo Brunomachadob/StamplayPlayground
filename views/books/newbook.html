@@ -1,0 +1,13 @@
+<md-content layout-padding>
+    <form name="newBookForm">
+        <md-input-container>
+            <label>Title</label>
+            <input md-maxlength="30" required name="title" ng-model="newBook.title">
+            <div ng-messages="newBookForm.title.$error">
+                <div ng-message="required">This is required.</div>
+                <div ng-message="md-maxlength">The name has to be less than 30 characters long.</div>
+            </div>
+        </md-input-container>
+    </form>
+    <md-button class="md-raised md-primary" ng-click="addBook()">Add</md-button>
+</md-content>

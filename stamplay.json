@@ -1,0 +1,10 @@
+{
+  "appId": "brunom",
+  "apiKey": "c6bd425609e2974bae58769e119a0e7dfd3a0e4da6dc839cbb5a5e79ff16938f",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
